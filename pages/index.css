@@ -1,0 +1,163 @@
+body {
+    font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+    line-height: 1.4;
+    background: #191c1c;
+}
+
+h1 {
+    font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+    font-size: 42px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+h3 {
+    font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+    font-size: 32px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+h4 {
+    font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+p {
+    font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+    font-size: 26px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+blockquote {
+    font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+    font-size: 32px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+pre {
+    font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+    font-size: 21px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+#container {
+    padding: 0px;
+    height: 100vh;
+}
+
+.links {
+    float: right;
+    margin: 0.5em;
+    font-size: 18px;
+}
+
+.links a {
+    padding: 0.5em;
+}
+
+.sidebar {
+    background: #35403A;
+    color: #FEFEFE;
+}
+
+@media screen and (min-width: 64em) {
+    .sidebar {
+        height: 100%;
+    }
+    .content {
+        height: auto;
+    }
+}
+
+.sidebar a {
+    color: #ddd;
+}
+
+a:visited {
+    color: #efefef;
+}
+
+.sidebar a:hover {
+    color: #bebebe;
+}
+
+.content a {
+    color: #bebebe;
+}
+
+.content a:hover {
+    color: #ddd;
+}
+
+.sidebar .header {
+    padding: 2em;
+    text-align: center;
+}
+
+.content {
+    background: #191c1c;
+    color: #fefefe;
+    height: 100%;
+}
+
+.content .resume {
+    clear: float;
+    padding: 2em;
+}
+
+.content .resume .degree {
+    font-style: italic;
+}
+
+/* Overwrite pure */
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    /* Set your content font stack here: */
+    font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+}
+
+img.profile {
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+    max-height: 300px;
+    max-width: 300px;
+    text-align: center;
+}
+
+
+@media (min-width: 48em) {
+    .content {
+        padding: 2em 3em 0;
+        margin-left: 25%;
+    }
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+    }
+}
+.skills label {
+    font-weight: bold;
+    font-style: italic;
+    padding-right: 0.25em;
+}

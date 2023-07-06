@@ -1,0 +1,18 @@
+{
+  "name": "timothyhahn.com",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build"
+  },
+  "author": "Timothy Hahn",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^10.4.14",
+    "cssnano": "^6.0.1",
+    "fs-extra": "^11.1.1",
+    "htmlnano": "^2.0.4",
+    "posthtml": "^0.16.6"
+  }
+}
