@@ -10,9 +10,9 @@
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "^10.4.14",
-    "cssnano": "^6.0.1",
+    "cssnano": "^7.0.0",
     "fs-extra": "^11.1.1",
-    "htmlnano": "^2.0.4",
+    "htmlnano": "^2.1.1",
     "posthtml": "^0.16.6",
     "terser": "^5.28.1"
   }
